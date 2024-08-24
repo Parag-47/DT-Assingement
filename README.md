@@ -8,7 +8,7 @@
 
 **Step 3:** Then run npm start to start the server.
 
-**Optionally:** You can also import the `DT_Assingement.postman_collection.json` into your postman app to get all the endpoints with their payloads and responses.
+**Optionally:** You can also import the `DT Assingement.postman_collection.json` into your postman app to get all the endpoints with their payloads and responses.
 
 ## Usage
 
