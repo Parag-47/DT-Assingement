@@ -1,1 +1,24 @@
 # DT-Assingement
+
+## Installation
+
+**Step 1:** One a Terminal in the root directory and run command npm i to install all the dependencies.
+
+**Step 2:** Use the .env-sample file to recreate the environment variables like `MongoDB` connection string and more importantly `Clodinary` Configuration variables
+
+**Step 3:** Then run npm start to start the server.
+
+**Optionally:** You can also import the `DT_Assingement.postman_collection.json` into your postman app to get all the endpoints with their payloads and responses.
+
+## Usage
+
+**There are 5 EndPoints**
+- `GET	/api/v3/app/events?id=event_id` : Gets an event by its unique id.	
+
+- `GET	/api/v3/app/events?type=latest&limit=5&page=1` : Gets an event by its recency & paginate results by page number and limit of events per page
+
+- `POST	/api/v3/app/events` : Creates an event and returns the Id of the created event `Payload` : name, images(file), tagline, schedule, description, moderator, category, sub_category, rigor_rank
+
+- `PUT	/api/v3/app/events/:id` :  Finds an event by its id and updates it `Payload` : Same as the POST payload.
+
+- `DELETE	/api/v3/app/events/:id` : Deletes an event based on its Unique Id
