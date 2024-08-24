@@ -1,0 +1,892 @@
+{
+	"info": {
+		"_postman_id": "76fcb6d2-2447-42fb-a03d-a9fb2407e422",
+		"name": "DT Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33905813"
+	},
+	"item": [
+		{
+			"name": "Create Event",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Upvan Music Fest",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"postman-cloud:///1ef61326-5a58-44a0-84fa-0f841ebcfe65",
+								"postman-cloud:///1ef61326-5810-4cb0-812a-4af8d54f7a6c",
+								"postman-cloud:///1ef61326-5d54-4730-8480-0ffe5b56b54f",
+								"postman-cloud:///1ef61326-5f52-4b40-8adb-5cf42c5d8bb8",
+								"postman-cloud:///1ef61326-69cb-45e0-a31d-345a784624ea"
+							]
+						},
+						{
+							"key": "tagline",
+							"value": "Symphony Of Refined Tones",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "schedule",
+							"value": "2024-08-22T16:07:54+02:00",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Upvan Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei",
+							"type": "text"
+						},
+						{
+							"key": "moderator",
+							"value": "Purvesh Sarnaik",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "Music",
+							"type": "text"
+						},
+						{
+							"key": "sub_category",
+							"value": "Music Festival",
+							"type": "text"
+						},
+						{
+							"key": "rigor_rank",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{server}}/events",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"events"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Event",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Upvan Music Fest",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1ef61326-5a58-44a0-84fa-0f841ebcfe65",
+										"postman-cloud:///1ef61326-5810-4cb0-812a-4af8d54f7a6c",
+										"postman-cloud:///1ef61326-5d54-4730-8480-0ffe5b56b54f",
+										"postman-cloud:///1ef61326-5f52-4b40-8adb-5cf42c5d8bb8",
+										"postman-cloud:///1ef61326-69cb-45e0-a31d-345a784624ea"
+									]
+								},
+								{
+									"key": "tagline",
+									"value": "Symphony Of Refined Tones",
+									"contentType": "",
+									"type": "text"
+								},
+								{
+									"key": "schedule",
+									"value": "2024-08-22T16:07:54+02:00",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Upvan Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei",
+									"type": "text"
+								},
+								{
+									"key": "moderator",
+									"value": "Purvesh Sarnaik",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Music",
+									"type": "text"
+								},
+								{
+									"key": "sub_category",
+									"value": "Music Festival",
+									"type": "text"
+								},
+								{
+									"key": "rigor_rank",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/events",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"events"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "142"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8e-E8UQ5pYlDvbYNqioGxcnkBt0ImM\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 23 Aug 2024 23:41:46 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"success\": true,\n    \"message\": \"Event Created Successfully!\",\n    \"data\": {\n        \"acknowledged\": true,\n        \"insertedId\": \"66c91e3a15c8a1b931df6284\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Event",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Mumbai Music Fest",
+							"type": "text"
+						},
+						{
+							"key": "images",
+							"type": "file",
+							"src": [
+								"postman-cloud:///1ef61326-5a58-44a0-84fa-0f841ebcfe65",
+								"postman-cloud:///1ef61326-5810-4cb0-812a-4af8d54f7a6c"
+							]
+						},
+						{
+							"key": "tagline",
+							"value": "Divine Music",
+							"contentType": "",
+							"type": "text"
+						},
+						{
+							"key": "schedule",
+							"value": "2024-08-22T16:07:54+02:00",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Mumbai Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei",
+							"type": "text"
+						},
+						{
+							"key": "moderator",
+							"value": "Pravin Sharma",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "Music",
+							"type": "text"
+						},
+						{
+							"key": "sub_category",
+							"value": "Music Festival",
+							"type": "text"
+						},
+						{
+							"key": "rigor_rank",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{server}}/events/66c783e9a824c49890349425",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"events",
+						"66c783e9a824c49890349425"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update Event",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Mumbai Music Fest",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": [
+										"postman-cloud:///1ef61326-5a58-44a0-84fa-0f841ebcfe65",
+										"postman-cloud:///1ef61326-5810-4cb0-812a-4af8d54f7a6c"
+									]
+								},
+								{
+									"key": "tagline",
+									"value": "Divine Music",
+									"contentType": "",
+									"type": "text"
+								},
+								{
+									"key": "schedule",
+									"value": "2024-08-22T16:07:54+02:00",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Mumbai Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei",
+									"type": "text"
+								},
+								{
+									"key": "moderator",
+									"value": "Pravin Sharma",
+									"type": "text"
+								},
+								{
+									"key": "category",
+									"value": "Music",
+									"type": "text"
+								},
+								{
+									"key": "sub_category",
+									"value": "Music Festival",
+									"type": "text"
+								},
+								{
+									"key": "rigor_rank",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{server}}/events/66c783e9a824c49890349425",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"events",
+								"66c783e9a824c49890349425"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "994"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3e2-HBsEwzIGaqn13julI8aDF7F+vXU\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 23 Aug 2024 23:36:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"success\": true,\n    \"message\": \"Event Fetched Successfully!\",\n    \"data\": {\n        \"_id\": \"66c783e9a824c49890349425\",\n        \"name\": \"Mumbai Music Fest\",\n        \"tagline\": \"Divine Music\",\n        \"schedule\": \"2024-08-22T16:07:54+02:00\",\n        \"description\": \"Mumbai Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei\",\n        \"moderator\": \"Pravin Sharma\",\n        \"category\": \"Music\",\n        \"sub_category\": \"Music Festival\",\n        \"rigor_rank\": \"4\",\n        \"createdAt\": \"2024-08-22T18:31:05.912Z\",\n        \"updateAt\": \"2024-08-23T23:36:29.191Z\",\n        \"images\": [\n            \"http://res.cloudinary.com/parag47/image/upload/v1724456192/Mumbai%20Music%20Fest_Image_0.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724456193/Mumbai%20Music%20Fest_Image_1.jpg\"\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get All Events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/events?type=latest&page=1&limit=10",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"events"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "latest"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All Events",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/events?type=latest&page=1&limit=10",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"events"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "latest"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2243"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8c3-6QMp5BReHhBeritLnz8y5w91+gA\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 23 Aug 2024 23:43:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"success\": true,\n    \"message\": \"Events Fetched Successfully!\",\n    \"data\": {\n        \"metadata\": [\n            {\n                \"totalCount\": 2\n            }\n        ],\n        \"data\": [\n            {\n                \"_id\": \"66c783e9a824c49890349425\",\n                \"name\": \"Mumbai Music Fest\",\n                \"tagline\": \"Divine Music\",\n                \"schedule\": \"2024-08-22T16:07:54+02:00\",\n                \"description\": \"Mumbai Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei\",\n                \"moderator\": \"Pravin Sharma\",\n                \"category\": \"Music\",\n                \"sub_category\": \"Music Festival\",\n                \"rigor_rank\": \"4\",\n                \"createdAt\": \"2024-08-22T18:31:05.912Z\",\n                \"updateAt\": \"2024-08-23T23:36:29.191Z\",\n                \"images\": [\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724456192/Mumbai%20Music%20Fest_Image_0.jpg\",\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724456193/Mumbai%20Music%20Fest_Image_1.jpg\"\n                ]\n            },\n            {\n                \"_id\": \"66c869e4f2854895270584e5\",\n                \"name\": \"Upvan Music Fest\",\n                \"tagline\": \"Symphony Of Refined Tones\",\n                \"schedule\": \"2024-08-22T16:07:54+02:00\",\n                \"description\": \"Upvan Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei\",\n                \"moderator\": \"Purvesh Sarnaik\",\n                \"category\": \"Music\",\n                \"sub_category\": \"Music Festival\",\n                \"rigor_rank\": \"4\",\n                \"createdAt\": \"2024-08-23T10:52:10.435Z\",\n                \"updateAt\": \"2024-08-23T10:52:10.435Z\",\n                \"images\": [\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724410332/Upvan%20Music%20Fest_Image_0.jpg\",\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724410334/Upvan%20Music%20Fest_Image_1.jpg\",\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724410335/Upvan%20Music%20Fest_Image_2.jpg\",\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724410337/Upvan%20Music%20Fest_Image_3.jpg\",\n                    \"http://res.cloudinary.com/parag47/image/upload/v1724410339/Upvan%20Music%20Fest_Image_4.jpg\"\n                ]\n            }\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Event By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/events/?id=66c869e4f2854895270584e5",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"events",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "66c869e4f2854895270584e5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Event By Id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/events/?id=66c869e4f2854895270584e5",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"events",
+								""
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "66c869e4f2854895270584e5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1287"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"507-hiquyDPY4o2xf/nOrnVjSURmANk\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 23 Aug 2024 23:44:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"success\": true,\n    \"message\": \"Event Fetched Successfully!\",\n    \"data\": {\n        \"_id\": \"66c869e4f2854895270584e5\",\n        \"name\": \"Upvan Music Fest\",\n        \"tagline\": \"Symphony Of Refined Tones\",\n        \"schedule\": \"2024-08-22T16:07:54+02:00\",\n        \"description\": \"Upvan Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei\",\n        \"moderator\": \"Purvesh Sarnaik\",\n        \"category\": \"Music\",\n        \"sub_category\": \"Music Festival\",\n        \"rigor_rank\": \"4\",\n        \"createdAt\": \"2024-08-23T10:52:10.435Z\",\n        \"updateAt\": \"2024-08-23T10:52:10.435Z\",\n        \"images\": [\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410332/Upvan%20Music%20Fest_Image_0.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410334/Upvan%20Music%20Fest_Image_1.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410335/Upvan%20Music%20Fest_Image_2.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410337/Upvan%20Music%20Fest_Image_3.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410339/Upvan%20Music%20Fest_Image_4.jpg\"\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Event",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/events/66c869e4f2854895270584e5",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"events",
+						"66c869e4f2854895270584e5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Event",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{server}}/events/66c869e4f2854895270584e5",
+							"host": [
+								"{{server}}"
+							],
+							"path": [
+								"events",
+								"66c869e4f2854895270584e5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Security-Policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "Cross-Origin-Opener-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Cross-Origin-Resource-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "Origin-Agent-Cluster",
+							"value": "?1"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-DNS-Prefetch-Control",
+							"value": "off"
+						},
+						{
+							"key": "X-Download-Options",
+							"value": "noopen"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "X-Permitted-Cross-Domain-Policies",
+							"value": "none"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1287"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"507-aJluLImk8p1zWwxbOuZqLhEqyts\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 23 Aug 2024 23:51:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"success\": true,\n    \"message\": \"Event Deleted Successfully!\",\n    \"data\": {\n        \"_id\": \"66c869e4f2854895270584e5\",\n        \"name\": \"Upvan Music Fest\",\n        \"tagline\": \"Symphony Of Refined Tones\",\n        \"schedule\": \"2024-08-22T16:07:54+02:00\",\n        \"description\": \"Upvan Arts Festival is one of the most glorious festivals to be hosted at the humongous Upvan Lake of Thane. 300+ National & International performing and visual artists will actively participate in the fest leaving no boundaries for exhibiting all forms of Art, transforming this venue into a heaven on earth, as never seen before. The festival envisages offering the visitors a vibrant and kalei\",\n        \"moderator\": \"Purvesh Sarnaik\",\n        \"category\": \"Music\",\n        \"sub_category\": \"Music Festival\",\n        \"rigor_rank\": \"4\",\n        \"createdAt\": \"2024-08-23T10:52:10.435Z\",\n        \"updateAt\": \"2024-08-23T10:52:10.435Z\",\n        \"images\": [\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410332/Upvan%20Music%20Fest_Image_0.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410334/Upvan%20Music%20Fest_Image_1.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410335/Upvan%20Music%20Fest_Image_2.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410337/Upvan%20Music%20Fest_Image_3.jpg\",\n            \"http://res.cloudinary.com/parag47/image/upload/v1724410339/Upvan%20Music%20Fest_Image_4.jpg\"\n        ]\n    }\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "server",
+			"value": "http://localhost:3000/api/v3/app",
+			"type": "string"
+		}
+	]
+}
