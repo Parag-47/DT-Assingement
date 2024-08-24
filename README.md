@@ -1,10 +1,11 @@
 # DT-Assingement
+**Note:** This project uses cloudinary to stored uploaded images so you'll need to sign-up (it's free) on cloudniary and enter the API key and secret into an .env file.
 
 ## Installation
 
 **Step 1:** One a Terminal in the root directory and run command npm i to install all the dependencies.
 
-**Step 2:** Use the .env-sample file to recreate the environment variables like `MongoDB` connection string and more importantly `Clodinary` Configuration variables
+**Step 2:** Use the .env-sample file to recreate the environment variables like `MongoDB` connection string and more importantly `Cloudinary` Configuration variables
 
 **Step 3:** Then run npm start to start the server.
 
