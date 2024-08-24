@@ -20,6 +20,6 @@
 
 - `POST	/api/v3/app/events` : Creates an event and returns the Id of the created event `Payload` : name, images(file), tagline, schedule, description, moderator, category, sub_category, rigor_rank
 
-- `PUT	/api/v3/app/events/:id` :  Finds an event by its id and updates it `Payload` : Same as the POST payload.
+- `PUT	/api/v3/app/events/:id` :  Updates the details of an existing event `Payload` : Same as the POST payload.
 
-- `DELETE	/api/v3/app/events/:id` : Deletes an event based on its Unique Id
+- `DELETE	/api/v3/app/events/:id` : Deletes a specific event
